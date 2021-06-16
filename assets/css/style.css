@@ -13,7 +13,7 @@ h1 {
     font-family: 'Source Sans Pro', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: black;
+    color: aliceblue;
 }
 h2 {
     font-family: 'Poppins', sans-serif;
@@ -22,14 +22,34 @@ h2 {
 }
 
 /* Header style */
+#header-container {
+    padding: 30px;
+    border: 1px solid #110066;
+    background-color: #110066;
+    position: relative;
+
+}
 
 #logo {
     float: left;
+    position: fixed;
+    top: 10px;
+    left: 10px
+}
+#logo h1 {
+    text-decoration: none;
+    color: aliceblue;
 }
 
 #menu {
+    font-size: 130%;
     float: right;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
 }
+
 
 #menu li {
     display: inline-block;
