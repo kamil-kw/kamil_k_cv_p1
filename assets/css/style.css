@@ -21,3 +21,16 @@ h2 {
     color: black;
 }
 
+/* Header style */
+
+#logo {
+    float: left;
+}
+
+#menu {
+    float: right;
+}
+
+#menu li {
+    display: inline-block;
+}
