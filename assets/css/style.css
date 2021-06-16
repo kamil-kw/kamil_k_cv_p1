@@ -9,6 +9,7 @@ body {
     font-weight: 600;
     color: black;
 }
+
 h1 {
     font-family: 'Source Sans Pro', sans-serif;
     text-transform: uppercase;
@@ -32,13 +33,9 @@ h2 {
 
 #logo {
     float: left;
-    position: fixed;
+    position: absolute;
     top: 10px;
     left: 10px
-}
-#logo h1 {
-    text-decoration: none;
-    color: aliceblue;
 }
 
 #menu {
@@ -50,7 +47,45 @@ h2 {
     bottom: 10px;
 }
 
+li a {
+    color: aliceblue;
+}
 
 #menu li {
     display: inline-block;
+}
+
+/* Photo section */
+
+#about {
+width: auto;
+height: auto;
+position: absolute;
+right: 10%;
+left: 10%
+}
+
+#photo-about {
+    background-image: url(../images/comica2.jpg);
+    background-color: red;
+    height: 444px;
+    width: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#photo-about {
+    float: right;
+    position: fixed;
+    right: 30%;
+} 
+
+#short-about {
+    text-align: left;
+    float: left;
+    position: fixed;
+    left: 5%;
+    right: 50%;
+    width: auto;
 }
